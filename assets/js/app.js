@@ -1,3 +1,4 @@
+// Header Scroll Down Fixed Jquery Code
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();
     if(scroll > 100) {
@@ -8,3 +9,17 @@ $(window).scroll(function() {
         $(".main-header").addClass("container");
     }
 });
+// Hamburger Code
+function navbar() {
+    if(document.getElementById("collapsibleNavbar").classList.contains("show")) {
+        // if the condition is true
+        $(".menu-bar-1").removeClass("menu-bar-1-active");
+        $(".menu-bar-2").removeClass("menu-bar-2-active");
+        $(".menu-bar-3").removeClass("menu-bar-3-active");
+    }else {
+        // if the condition false
+        $(".menu-bar-1").addClass("menu-bar-1-active");
+        $(".menu-bar-2").addClass("menu-bar-2-active");
+        $(".menu-bar-3").addClass("menu-bar-3-active");
+    }
+}

@@ -1,0 +1,31 @@
+/* Mobile Break Point  */
+@media screen and (min-width: 100px) and (max-width: 576px) {
+    .about-title::after {
+        padding: 0px !important;
+        width: 0px !important;
+        height: 0px !important;
+    }
+} 
+/* All Title Before Small */
+@media screen and (min-width: 100px) and (max-width: 587px) {
+  .section-title-about::before {
+    content: "";
+  }
+  .section-title-services::before {
+    content: "";
+  }
+  .section-title-projects::before {
+    content: "";
+  }
+  .section-title-team::before {
+    content: "";
+  }
+  .section-title-testimonial::before {
+    content: "";
+  }
+}
+@media screen and (min-width: 100px) and (max-width: 327px) {
+    .main-header {
+        padding: 0px 10px !important;
+    }
+}

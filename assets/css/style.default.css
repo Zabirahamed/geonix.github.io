@@ -41,6 +41,36 @@ header {
   padding-top: 12px;
   padding-bottom: 12px;
 }
+.hamburger-menu-bar {
+  height: 2px;
+  background: #0b1227;
+  width: 29px;
+  transition: 0.5s;
+  position: relative;
+  margin-top: 6px;
+}
+.hamburger-menu-bar:nth-child(1) {
+  margin-top: 0px !important;
+}
+.menu-bar-2 {
+  left: 0px;
+}
+.menu-bar-2-active {
+  position: relative;
+  left: -15px;
+  opacity: 0;
+}
+.menu-bar-1-active {
+  transform: rotate(50deg) translate(4px, 7px);
+}
+.menu-bar-2-active {
+  position: relative;
+  left: -29px;
+  opacity: 0;
+}
+.menu-bar-3-active {
+  transform: rotate(-50deg) translate(4px, -7px);
+}
 .fixed-header {
   position: fixed;
   top: 0px;
@@ -83,6 +113,7 @@ header nav ul li a:hover .menu-bar {
 }
 .main-header {
   border-bottom: 1px solid #eee;
+  padding: 0px 100px;
 }
 .custom-btn {
   background: transparent;
@@ -194,4 +225,7 @@ header nav ul li a:hover .menu-bar {
 }
 .bottom-footer {
   background: #0b1227;
+}
+.footer-logo {
+  width: 195px;
 }
