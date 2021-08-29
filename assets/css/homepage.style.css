@@ -1,0 +1,195 @@
+/* 1. Homepage Hero Section */
+.hero-section {
+  background: linear-gradient(#020e75b0, #020e75b0),
+    url(../img/geonix-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  padding: 159px 0px !important;
+  padding-bottom: 160px !important;
+  background-attachment: fixed;
+}
+.hero-sub-title {
+  letter-spacing: 10px;
+}
+/* 2. About Section */
+.about-title::after {
+  content: "";
+  background: #020e75;
+  padding: 1px 27px;
+  position: relative;
+  left: 17px;
+  height: 27px;
+  -webkit-clip-path: polygon(0 46%, 100% 46%, 100% 56%, 0 57%);
+  clip-path: polygon(0 46%, 100% 46%, 100% 56%, 0 57%);
+}
+.section-title-about {
+  position: relative;
+}
+.section-title-about::before {
+  content: "ABOUT US";
+  position: absolute;
+  font-size: 69px;
+  top: -15px;
+  z-index: -2;
+  text-align: center;
+  left: 0px;
+  right: 0px;
+  color: #e4e4e4d1;
+  letter-spacing: 10px;
+}
+/* 3. Know More Section */
+.know-more-section {
+  background: linear-gradient(#020e75d6, #020e75d6),
+    url(../img/geonix-background-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+}
+.info-section {
+  border: 2px solid #fff;
+  border-radius: 3px;
+  padding-top: 20px;
+  transition: 0.5s;
+  padding-bottom: 20px;
+}
+.info-area {
+  padding-top: 32px;
+}
+.info-section:hover {
+  background: #fff;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 30px 6px #ffffff47;
+}
+.info-section:hover .info-text {
+  color: #0b1227 !important;
+}
+.info-icon,
+.info-text {
+  transition: 0.5s;
+}
+.info-section:hover .info-icon {
+  color: #0b1227 !important;
+}
+/* 4. Services Section CSS  */
+.service-section {
+  background: #0b1227;
+}
+.section-title-services {
+  position: relative;
+  z-index: 22323 !important;
+}
+.section-title-services::before {
+  content: "OUR SERVICES";
+  position: absolute;
+  font-size: 69px;
+  top: -15px;
+  text-align: center;
+  left: 0px;
+  right: 0px;
+  color: #ffffff26;
+  letter-spacing: 12px;
+  z-index: -1;
+}
+.service-area {
+  background-color: rgb(243, 243, 243);
+  text-align: center;
+  position: relative;
+  transition: 0.5s;
+}
+.service-area:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 30px 10px #ffffff29;
+}
+.service-icon {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: -46px;
+  width: 100%;
+}
+.service-icon i {
+  padding: 24px 19px;
+  font-size: 34px;
+  background: #000676;
+  color: white;
+  border-radius: 100px;
+}
+/* 5. Team Section CSS  */
+.section-title-team {
+  position: relative;
+  z-index: 2;
+}
+.section-title-team::before {
+  content: "OUR TEAM";
+  position: absolute;
+  font-size: 69px;
+  top: -15px;
+  z-index: -2;
+  text-align: center;
+  left: 0px;
+  right: 0px;
+  color: #ffffff3b;
+  letter-spacing: 12px;
+}
+.team-workers {
+  background: linear-gradient(#020e75d6, #020e75d6), url(../img/geonix-team.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  padding-top: 70px !important;
+  padding-bottom: 60px !important;
+  position: relative;
+  background-attachment: fixed;
+}
+.team-member-induvidual {
+  position: relative;
+}
+.team-social-icon {
+  margin: 5px 0px;
+}
+.team-social-icon a {
+  color: #0b1227 !important;
+  padding: 7px;
+  font-size: 21px;
+}
+/* 6. Projects Section CSS  */
+.section-title-projects {
+  position: relative;
+}
+.section-title-projects::before {
+  content: "OUR PROJECTS";
+  position: absolute;
+  font-size: 69px;
+  top: -15px;
+  z-index: -2;
+  text-align: center;
+  left: 0px;
+  right: 0px;
+  color: #e4e4e4d1;
+  letter-spacing: 12px;
+}
+/* 6. Projects Section CSS  */
+.section-title-testimonial {
+  position: relative;
+}
+.section-title-testimonial::before {
+  content: "TESTIMONIAL";
+  position: absolute;
+  font-size: 69px;
+  top: -15px;
+  z-index: -2;
+  text-align: center;
+  left: 0px;
+  right: 0px;
+  color: #e4e4e4d1;
+  letter-spacing: 12px;
+}
+/* Skills Section CSS  */
+.skills-img {
+  background: url(../img/geonix-skills.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
