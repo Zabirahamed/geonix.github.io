@@ -76,3 +76,25 @@
     letter-spacing: 1px;
   }
 }
+@media screen and (min-width: 250px) and (max-width: 299px) {
+  .hero-section-title {
+    font-size: 1.6rem;
+  }
+  .hero-sub-title {
+    letter-spacing: 1px;
+  }
+  .custom-btn {
+    padding: 10px 17px !important;
+    font-size: 13px;
+  }
+  .hero-section {
+    padding-top: 90px !important;
+    padding-bottom: 90px !important;
+  }
+}
+@media screen and (min-width: 386px) and (max-widht: 405px) {
+  .custom-btn {
+    padding: 10px 20px !important;
+    font-size: 15px;
+  }
+}
