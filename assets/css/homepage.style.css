@@ -11,6 +11,52 @@
 }
 .hero-sub-title {
   letter-spacing: 10px;
+  transition: 1s;
+}
+@keyframes hero-sub-title {
+  0% {
+    letter-spacing: 0px;
+  }
+  100% {
+    letter-spacing: 10px;
+  }
+}
+.hero-section-title {
+  position: relative;
+  top: 0px;
+}
+.active-hero-title-animation {
+  animation-name: hero-section-all-element;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+}
+.hero-sub-title {
+  position: relative;
+  top: 0px;
+}
+.active-hero-sub-title {
+  animation-name: hero-section-all-element;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+}
+.hero-btn {
+  position: relative;
+  top: 0px;
+}
+.active-hero-btn {
+  animation-name: hero-section-all-element;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+}
+@keyframes hero-section-all-element {
+  0% {
+    top: 60px;
+    opacity: 0;
+  }
+  100% {
+    top: 0px;
+    opacity: 1;
+  }
 }
 /* 2. About Section */
 .about-title::after {

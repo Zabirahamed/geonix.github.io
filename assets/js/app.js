@@ -23,3 +23,12 @@ function navbar() {
         $(".menu-bar-3").addClass("menu-bar-3-active");
     }
 }
+// Scroll Top Code 
+$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+    if(scroll > 100) {
+        $(".btn-top").addClass("active-top-btn");
+    }else {
+        $(".btn-top").removeClass("active-top-btn");
+    }
+});

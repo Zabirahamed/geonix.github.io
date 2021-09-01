@@ -21,7 +21,7 @@
 }
 @media screen and (min-width: 1100px) and (max-width: 1199px) {
   .main-header {
-    padding: 0px 55px !important;
+    padding: 10px 55px !important;
   }
 }
 @media screen and (min-width: 1000px) and (max-width: 1099px) {
@@ -31,7 +31,7 @@
 }
 @media screen and (min-width: 100px) and (max-width: 1048px) {
   .main-header {
-    padding: 0px 31px !important;
+    padding: 5px 31px !important;
   }
 }
 @media screen and (min-width: 100px) and (max-width: 767px) {
