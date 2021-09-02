@@ -127,7 +127,7 @@
   z-index: 22323 !important;
 }
 .section-title-services::before {
-  content: "OUR SERVICES";
+  content: "SERVICES";
   position: absolute;
   font-size: 69px;
   top: -15px;
@@ -148,13 +148,6 @@
   transform: scale(1.1);
   box-shadow: 0px 0px 30px 10px #ffffff29;
 }
-.service-icon {
-  position: absolute;
-  left: 0px;
-  right: 0px;
-  top: -46px;
-  width: 100%;
-}
 .service-icon i {
   padding: 24px 19px;
   font-size: 34px;
@@ -168,7 +161,7 @@
   z-index: 2;
 }
 .section-title-team::before {
-  content: "OUR TEAM";
+  content: "TEAM";
   position: absolute;
   font-size: 69px;
   top: -15px;
@@ -177,7 +170,7 @@
   left: 0px;
   right: 0px;
   color: #ffffff3b;
-  letter-spacing: 12px;
+  letter-spacing: 16px;
 }
 .team-workers {
   background: linear-gradient(#020e75d6, #020e75d6), url(../img/geonix-team.jpg);
@@ -205,7 +198,7 @@
   position: relative;
 }
 .section-title-projects::before {
-  content: "OUR PROJECTS";
+  content: "PROJECTS";
   position: absolute;
   font-size: 69px;
   top: -15px;
@@ -216,7 +209,7 @@
   color: #e4e4e4d1;
   letter-spacing: 12px;
 }
-/* 6. Projects Section CSS  */
+/* 6. Testimonial Section CSS  */
 .section-title-testimonial {
   position: relative;
 }
@@ -232,10 +225,45 @@
   color: #e4e4e4d1;
   letter-spacing: 12px;
 }
+.carousel-control-prev {
+  opacity: 1 !important;
+  font-size: 30px;
+}
+.carousel-control-next {
+  opacity: 1 !important;
+  font-size: 30px;
+}
 /* Skills Section CSS  */
 .skills-img {
   background: url(../img/geonix-skills.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+/* Subscription Section */
+.subscription-seciton {
+  background-color: #0b1227;
+}
+.sub-from {
+  border: 2px solid #fff;
+  color: #fff !important;
+}
+.form-icon {
+  border: 2px solid #fff;
+  border-right: none;
+}
+.subscribe-btn {
+  padding: 9px 18px !important;
+  border: 2px solid #fff !important;
+}
+/* Brand Slider */
+.owl-dots {
+  display: none;
+}
+.brand-slider img {
+  filter: grayscale(100%);
+  transition: 0.5s;
+}
+.brand-slider img:hover {
+  filter: grayscale(0%);
 }
