@@ -283,8 +283,8 @@
   background-position: center;
   background-size: cover;
   width: 300px !important;
-  height: 354px !important;
-  padding: 20px 10px;
+  height: 372px !important;
+  padding: 33px 10px;
 }
 .swiper-slide {
   background-color: #fff !important;
@@ -333,3 +333,4 @@
   color: #e4e4e4d1;
   letter-spacing: 10px;
 }
+
