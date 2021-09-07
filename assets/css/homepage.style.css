@@ -1,5 +1,9 @@
 /* 1. Homepage Hero Section */
 .hero-section {
+  background: -webkit-gradient(linear, left top, left bottom, from(#000d91ad), to(#000df7ab)),
+    url(../img/geonix-background.jpg);
+  background: -o-linear-gradient(#000d91ad, #000df7ab),
+    url(../img/geonix-background.jpg);
   background: linear-gradient(#000d91ad, #000df7ab),
     url(../img/geonix-background.jpg);
   background-repeat: no-repeat;
@@ -11,7 +15,17 @@
 }
 .hero-sub-title {
   letter-spacing: 10px;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
   transition: 1s;
+}
+@-webkit-keyframes hero-sub-title {
+  0% {
+    letter-spacing: 0px;
+  }
+  100% {
+    letter-spacing: 10px;
+  }
 }
 @keyframes hero-sub-title {
   0% {
@@ -26,27 +40,46 @@
   top: 0px;
 }
 .active-hero-title-animation {
-  animation-name: hero-section-all-element;
-  animation-duration: 1.5s;
-  animation-iteration-count: 1;
+  -webkit-animation-name: hero-section-all-element;
+          animation-name: hero-section-all-element;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
 }
 .hero-sub-title {
   position: relative;
   top: 0px;
 }
 .active-hero-sub-title {
-  animation-name: hero-section-all-element;
-  animation-duration: 1.5s;
-  animation-iteration-count: 1;
+  -webkit-animation-name: hero-section-all-element;
+          animation-name: hero-section-all-element;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
 }
 .hero-btn {
   position: relative;
   top: 0px;
 }
 .active-hero-btn {
-  animation-name: hero-section-all-element;
-  animation-duration: 1.5s;
-  animation-iteration-count: 1;
+  -webkit-animation-name: hero-section-all-element;
+          animation-name: hero-section-all-element;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+@-webkit-keyframes hero-section-all-element {
+  0% {
+    top: 60px;
+    opacity: 0;
+  }
+  100% {
+    top: 0px;
+    opacity: 1;
+  }
 }
 @keyframes hero-section-all-element {
   0% {
@@ -86,6 +119,10 @@
 }
 /* 3. Know More Section */
 .know-more-section {
+  background: -webkit-gradient(linear, left top, left bottom, from(#000d91ad), to(#000df7ab)),
+    url(../img/geonix-background-2.jpg);
+  background: -o-linear-gradient(#000d91ad, #000df7ab),
+    url(../img/geonix-background-2.jpg);
   background: linear-gradient(#000d91ad, #000df7ab),
     url(../img/geonix-background-2.jpg);
   background-repeat: no-repeat;
@@ -97,6 +134,8 @@
   border: 2px solid #fff;
   border-radius: 3px;
   padding-top: 20px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
   transition: 0.5s;
   padding-bottom: 20px;
 }
@@ -105,14 +144,19 @@
 }
 .info-section:hover {
   background: #fff;
-  transform: scale(1.1);
-  box-shadow: 0px 0px 30px 6px #ffffff47;
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-box-shadow: 0px 0px 30px 6px #ffffff47;
+          box-shadow: 0px 0px 30px 6px #ffffff47;
 }
 .info-section:hover .info-text {
   color: #0b1227 !important;
 }
 .info-icon,
 .info-text {
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
   transition: 0.5s;
 }
 .info-section:hover .info-icon {
@@ -142,15 +186,21 @@
   background-color: rgb(243, 243, 243);
   text-align: center;
   position: relative;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
   transition: 0.5s;
 }
 .service-area:hover {
-  transform: scale(1.1);
-  box-shadow: 0px 0px 30px 10px #ffffff29;
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-box-shadow: 0px 0px 30px 10px #ffffff29;
+          box-shadow: 0px 0px 30px 10px #ffffff29;
 }
 .service-icon i {
   padding: 24px 19px;
   font-size: 34px;
+  background: -o-linear-gradient(45deg, #000d8a, #000dff);
   background: linear-gradient(45deg, #000d8a, #000dff);
   color: white;
   border-radius: 100px;
@@ -173,6 +223,8 @@
   letter-spacing: 16px;
 }
 .team-workers {
+  background: -webkit-gradient(linear, left top, left bottom, from(#000d91ad), to(#000df7ab)), url(../img/geonix-team.jpg);
+  background: -o-linear-gradient(#000d91ad, #000df7ab), url(../img/geonix-team.jpg);
   background: linear-gradient(#000d91ad, #000df7ab), url(../img/geonix-team.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -224,6 +276,8 @@
   border-radius: 4px;
   padding: 0px 15px;
   background: #00000075;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
   transition: 0.5s;
 }
 .project-info-bottom {
@@ -234,11 +288,15 @@
   right: 0px;
   padding-left: 18px;
   padding-right: 18px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
   transition: 0.5s;
 }
 .project-detail {
   opacity: 0;
   visibility: hidden;
+  -webkit-transition: 0.5s !important;
+  -o-transition: 0.5s !important;
   transition: 0.5s !important;
   height: 0px !important;
 }
@@ -288,7 +346,8 @@
 }
 .swiper-slide {
   background-color: #fff !important;
-  box-shadow: 0px 0px 30px #3535354f;
+  -webkit-box-shadow: 0px 0px 30px #3535354f;
+          box-shadow: 0px 0px 30px #3535354f;
 }
 .swiper-slide img {
   display: block;
@@ -311,11 +370,15 @@
   display: none;
 }
 .brand-slider img {
-  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
   transition: 0.5s;
 }
 .brand-slider img:hover {
-  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
 }
 /* FAQ Section CSS */
 .section-title-faq {
@@ -333,4 +396,3 @@
   color: #e4e4e4d1;
   letter-spacing: 10px;
 }
-

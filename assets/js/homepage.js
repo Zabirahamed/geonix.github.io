@@ -1,49 +1,48 @@
 // Owl Carousel Start
 var owl = $('.owl-carousel');
-        owl.owlCarousel({
-            items: 4,
-            loop: true,
-            vav: false,
-            margin: 20,
-            autoplay: true,
-            autoplayTimeout: 3000,
-            responsive: {
-                0: {
-                    items: 2
-                },
-                400: {
-                    items: 3
-                },
-                600: {
-                    items: 3
-                },
-                960: {
-                    items: 5
-                },
-                1200: {
-                    items: 6
-                }
-            },
-            autoplayHoverPause: true
-        });
-        $('.play').on('click', function () {
-            owl.trigger('play.owl.autoplay', [1000])
-        })
-        $('.stop').on('click', function () {
-            owl.trigger('stop.owl.autoplay')
-        })
-        owl.on('mousewheel', '.owl-stage', function (e) {
-            if (e.deltaY > 0) {
-                owl.trigger('next.owl');
-            } else {
-                owl.trigger('prev.owl');
-            }
-            e.preventDefault();
-        });
+owl.owlCarousel({
+    items: 4,
+    loop: true,
+    vav: false,
+    margin: 20,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    responsive: {
+        0: {
+            items: 2
+        },
+        400: {
+            items: 3
+        },
+        600: {
+            items: 3
+        },
+        960: {
+            items: 5
+        },
+        1200: {
+            items: 6
+        }
+    },
+    autoplayHoverPause: true
+});
+$('.play').on('click', function() {
+    owl.trigger('play.owl.autoplay', [1000])
+})
+$('.stop').on('click', function() {
+    owl.trigger('stop.owl.autoplay')
+})
+owl.on('mousewheel', '.owl-stage', function(e) {
+    if (e.deltaY > 0) {
+        owl.trigger('next.owl');
+    } else {
+        owl.trigger('prev.owl');
+    }
+    e.preventDefault();
+});
 // OWL Carousel End
 
 // Swiper Js Script
-
 var swiper = new Swiper(".mySwiper", {
     effect: "coverflow",
     grabCursor: true,
@@ -65,5 +64,4 @@ var swiper = new Swiper(".mySwiper", {
         el: ".swiper-pagination",
     },
 });
-
 // Swiper Js End 
