@@ -86,7 +86,8 @@
 }
 /* 3. Know More Section */
 .know-more-section {
-  background: linear-gradient(#000d91ad, #000df7ab),    url(../img/geonix-background-2.jpg);
+  background: linear-gradient(#000d91ad, #000df7ab),
+    url(../img/geonix-background-2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -214,7 +215,7 @@
 .project-info {
   position: absolute;
   text-align: left !important;
-  color : white !important;
+  color: white !important;
   top: 0px;
   width: 100%;
   left: 0px;
@@ -223,11 +224,31 @@
   border-radius: 4px;
   padding: 0px 15px;
   background: #00000075;
+  transition: 0.5s;
 }
 .project-info-bottom {
   position: absolute;
   width: 100%;
-  bottom: 19px;
+  bottom: -3px;
+  left: 0px;
+  right: 0px;
+  padding-left: 18px;
+  padding-right: 18px;
+  transition: 0.5s;
+}
+.project-detail {
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s !important;
+  height: 0px !important;
+}
+.project-area:hover .project-info-bottom {
+  bottom: 5px;
+}
+.project-area:hover .project-detail {
+  opacity: 1;
+  visibility: visible;
+  height: 75px !important;
 }
 /* 6. Testimonial Section CSS  */
 .section-title-testimonial {
@@ -276,7 +297,7 @@
 .swiper-slide .testimonial-img img {
   width: 100px;
   margin: auto;
-  border-radius: 100000px
+  border-radius: 100000px;
 }
 /* Skills Section CSS  */
 .skills-img {
@@ -295,4 +316,20 @@
 }
 .brand-slider img:hover {
   filter: grayscale(0%);
+}
+/* FAQ Section CSS */
+.section-title-faq {
+  position: relative;
+}
+.section-title-faq::before {
+  content: "OUR FAQ";
+  position: absolute;
+  font-size: 69px;
+  top: -15px;
+  z-index: -2;
+  text-align: center;
+  left: 0px;
+  right: 0px;
+  color: #e4e4e4d1;
+  letter-spacing: 10px;
 }

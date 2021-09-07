@@ -107,9 +107,9 @@ header nav ul li a {
   }
 }
 .header-custom-btn a {
-  background: linear-gradient(90deg, #000d8a, #000dff ,#000d8a, #000dff);
+  background: linear-gradient(90deg, #000d8a, #000dff, #000d8a, #000dff);
   color: #ffffff !important;
-  background-size: 330% ;
+  background-size: 330%;
   transition: 0.5s;
   border-radius: 5px;
   padding: 15px 23px !important;
