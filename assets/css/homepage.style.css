@@ -264,22 +264,6 @@
   background-size: cover;
   background-position: center;
 }
-/* Subscription Section */
-.subscription-seciton {
-  background-color: #0b1227;
-}
-.sub-from {
-  border: 2px solid #fff;
-  color: #fff !important;
-}
-.form-icon {
-  border: 2px solid #fff;
-  border-right: none;
-}
-.subscribe-btn {
-  padding: 9px 18px !important;
-  border: 2px solid #fff !important;
-}
 /* Brand Slider */
 .owl-dots {
   display: none;

@@ -261,6 +261,23 @@ header nav ul li a:hover .menu-bar {
   bottom: 20px;
   right: 20px;
 }
+/* Subscription Section */
+.subscription-seciton {
+  background-color: #0b1227;
+}
+.sub-from {
+  border: 2px solid #fff;
+  color: #fff !important;
+  padding: 9px 18px !important;
+}
+.form-icon {
+  border: 2px solid #fff;
+  border-right: none;
+}
+.subscribe-btn {
+  padding: 9px 18px !important;
+  border: 2px solid #fff !important;
+}
 @keyframes topbtnanimation {
   0% {
     bottom: -110px;
