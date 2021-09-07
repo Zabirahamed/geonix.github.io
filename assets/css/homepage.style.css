@@ -208,6 +208,27 @@
   color: #e4e4e4d1;
   letter-spacing: 12px;
 }
+.project-area {
+  position: relative;
+}
+.project-info {
+  position: absolute;
+  text-align: left !important;
+  color : white !important;
+  top: 0px;
+  width: 100%;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  border-radius: 4px;
+  padding: 0px 15px;
+  background: #00000075;
+}
+.project-info-bottom {
+  position: absolute;
+  width: 100%;
+  bottom: 19px;
+}
 /* 6. Testimonial Section CSS  */
 .section-title-testimonial {
   position: relative;

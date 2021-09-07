@@ -98,3 +98,9 @@
     font-size: 15px;
   }
 }
+@media screen and (min-width: 992px) and (max-width: 5000px) {
+  .projects-custom-row .project-area {
+    max-width: 32.333333%;
+    margin: auto;
+  }
+}
