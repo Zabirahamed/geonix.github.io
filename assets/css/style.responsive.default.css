@@ -3,13 +3,18 @@
 /* =============================================== All Common Responsive Breakpoints =============================================== */
 /* =============================================== All Common Responsive Breakpoints =============================================== */
 
-@media screen and (min-width: 100px) and (max-width: 768px) {
+@media screen and (min-width: 577px) and (max-width: 768px) {
   .tablet-text-center {
     text-align: center !important;
   }
 }
 @media screen and (min-width: 100px) and (max-width: 576px) {
   .mobile-text-center {
+    text-align: center !important;
+  }
+}
+@media screen and (min-width: 100px) and (max-width: 991px) {
+  .text-small-center {
     text-align: center !important;
   }
 }
