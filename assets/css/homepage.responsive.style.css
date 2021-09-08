@@ -24,11 +24,6 @@
     content: "";
   }
 }
-@media screen and (min-width: 100px) and (max-width: 327px) {
-  .main-header {
-    padding: 3px 10px !important;
-  }
-}
 @media screen and (min-width: 670px) and (max-width: 787px) {
   .hero-section-title {
     font-size: 3rem;
@@ -83,19 +78,9 @@
   .hero-sub-title {
     letter-spacing: 1px;
   }
-  .custom-btn {
-    padding: 10px 17px !important;
-    font-size: 13px;
-  }
   .hero-section {
     padding-top: 90px !important;
     padding-bottom: 90px !important;
-  }
-}
-@media screen and (min-width: 386px) and (max-widht: 405px) {
-  .custom-btn {
-    padding: 10px 20px !important;
-    font-size: 15px;
   }
 }
 @media screen and (min-width: 992px) and (max-width: 5000px) {
