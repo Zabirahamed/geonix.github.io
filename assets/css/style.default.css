@@ -10,6 +10,20 @@ body {
 body {
   font-family: "Montserrat", sans-serif !important;
 }
+::-webkit-scrollbar {
+  width: 8px;
+} 
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#000d8a, #000dff); 
+}
+::-moz-selection { /* Code for Firefox */
+  color: white !important;
+  background: #000d8a;
+}
+::selection {
+  color: white !important;
+  background: #000d8a;
+}
 .top-header {
   background-color: #0b1227;
 }
@@ -24,8 +38,8 @@ h5,
 h6 {
   font-family: "Poppins", sans-serif;
 }
-.bg-primary-color{ 
-  background: -o-linear-gradient(45deg, #000d8a, #000dff); 
+.bg-primary-color {
+  background: -o-linear-gradient(45deg, #000d8a, #000dff);
   background: linear-gradient(45deg, #000d8a, #000dff);
 }
 header nav {
@@ -69,8 +83,8 @@ header nav ul li a {
 }
 .menu-bar-1-active {
   -webkit-transform: rotate(50deg) translate(5px, 5px);
-      -ms-transform: rotate(50deg) translate(5px, 5px);
-          transform: rotate(50deg) translate(5px, 5px);
+  -ms-transform: rotate(50deg) translate(5px, 5px);
+  transform: rotate(50deg) translate(5px, 5px);
 }
 .menu-bar-2-active {
   position: relative;
@@ -79,8 +93,8 @@ header nav ul li a {
 }
 .menu-bar-3-active {
   -webkit-transform: rotate(-50deg) translate(5px, -7px);
-      -ms-transform: rotate(-50deg) translate(5px, -7px);
-          transform: rotate(-50deg) translate(5px, -7px);
+  -ms-transform: rotate(-50deg) translate(5px, -7px);
+  transform: rotate(-50deg) translate(5px, -7px);
 }
 .fixed-header {
   position: fixed;
@@ -92,15 +106,15 @@ header nav ul li a {
   margin: auto;
   padding-right: 70px !important;
   left: 0px;
-  z-index: 1000000000000000 !important;
+  z-index: 111 !important;
   -webkit-box-shadow: -1px 20px 30px 20px #00000012;
-          box-shadow: -1px 20px 30px 20px #00000012;
+  box-shadow: -1px 20px 30px 20px #00000012;
   -webkit-animation-name: headeranimation;
-          animation-name: headeranimation;
+  animation-name: headeranimation;
   -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  animation-duration: 1s;
   -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
+  animation-iteration-count: 1;
   border-bottom: 3px solid #020d75 !important;
 }
 @-webkit-keyframes headeranimation {
@@ -120,7 +134,15 @@ header nav ul li a {
   }
 }
 .header-custom-btn a {
-  background: -webkit-gradient(linear, left top, right top, from(#000d8a), color-stop(#000dff), color-stop(#000d8a), to(#000dff));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#000d8a),
+    color-stop(#000dff),
+    color-stop(#000d8a),
+    to(#000dff)
+  );
   background: -o-linear-gradient(left, #000d8a, #000dff, #000d8a, #000dff);
   background: linear-gradient(90deg, #000d8a, #000dff, #000d8a, #000dff);
   color: #ffffff !important;
@@ -134,7 +156,7 @@ header nav ul li a {
 }
 .header-custom-btn a:hover {
   -webkit-box-shadow: -2px 20px 30px 0px #00000014;
-          box-shadow: -2px 20px 30px 0px #00000014;
+  box-shadow: -2px 20px 30px 0px #00000014;
   background-position: right;
   color: #fff !important;
 }
@@ -142,7 +164,6 @@ header nav ul li a:hover .menu-bar {
   width: 100%;
 }
 .main-header {
-  border-bottom: 1px solid #eee;
   padding: 12px 10px;
 }
 .custom-btn {
@@ -158,12 +179,12 @@ header nav ul li a:hover .menu-bar {
 }
 .custom-btn:hover {
   -webkit-box-shadow: -2px 20px 30px 0px #ffffff2b;
-          box-shadow: -2px 20px 30px 0px #ffffff2b;
+  box-shadow: -2px 20px 30px 0px #ffffff2b;
   background: #ffffff;
   color: #0b1227 !important;
   -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-          transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
   border: 3px solid #ffffff;
 }
 .primary-color {
@@ -191,7 +212,7 @@ header nav ul li a:hover .menu-bar {
   background: -o-linear-gradient(45deg, #000d8a, #000dff);
   background: linear-gradient(45deg, #000d8a, #000dff);
   -webkit-box-shadow: -2px 20px 30px 0px #00000038;
-          box-shadow: -2px 20px 30px 0px #00000038;
+  box-shadow: -2px 20px 30px 0px #00000038;
   color: white !important;
 }
 .text-dark {
@@ -227,7 +248,7 @@ header nav ul li a:hover .menu-bar {
   background: #fff;
   color: #000 !important;
   -webkit-box-shadow: 0px 9px 30px 7px #ffffff40;
-          box-shadow: 0px 9px 30px 7px #ffffff40;
+  box-shadow: 0px 9px 30px 7px #ffffff40;
 }
 .custom-btn-4 {
   background-color: #020e75;
@@ -244,13 +265,19 @@ header nav ul li a:hover .menu-bar {
   background-color: #0b1227;
   border: 3px solid #0b1227;
   -webkit-box-shadow: -2px 20px 30px 0px #00000038;
-          box-shadow: -2px 20px 30px 0px #00000038;
+  box-shadow: -2px 20px 30px 0px #00000038;
 }
 .left-bar {
   margin: unset;
 }
 .main-footer {
-  background: -webkit-gradient(linear, left top, left bottom, from(#000d91eb), to(#000df7ed)),
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(#000d91eb),
+      to(#000df7ed)
+    ),
     url(../img/geonix-footer-bg.png);
   background: -o-linear-gradient(#000d91eb, #000df7ed),
     url(../img/geonix-footer-bg.png);
@@ -300,11 +327,11 @@ header nav ul li a:hover .menu-bar {
 }
 .active-top-btn {
   -webkit-animation-name: topbtnanimation;
-          animation-name: topbtnanimation;
+  animation-name: topbtnanimation;
   -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  animation-duration: 1s;
   -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
+  animation-iteration-count: 1;
   bottom: 20px;
   right: 20px;
   -webkit-transition: 0.5s;
@@ -314,7 +341,7 @@ header nav ul li a:hover .menu-bar {
 .btn-top:hover {
   color: #fff !important;
   -webkit-box-shadow: 0px 0px 30px #00000078;
-          box-shadow: 0px 0px 30px #00000078;
+  box-shadow: 0px 0px 30px #00000078;
 }
 /* Subscription Section */
 .subscription-seciton {

@@ -96,8 +96,7 @@
     top: 0px;
     opacity: 1;
   }
-}
-/* 2. About Section */
+} /* 2. About Section */
 .about-title::after {
   content: "";
   background: #020e75;
@@ -122,8 +121,7 @@
   right: 0px;
   color: #e4e4e4d1;
   letter-spacing: 10px;
-}
-/* 3. Know More Section */
+} /* 3. Know More Section */
 .know-more-section {
   background: -webkit-gradient(
       linear,
@@ -173,14 +171,13 @@
 }
 .info-section:hover .info-icon {
   color: #0b1227 !important;
-}
-/* 4. Services Section CSS  */
+} /* 4. Services Section CSS  */
 .service-section {
   background: #0b1227;
 }
 .section-title-services {
   position: relative;
-  z-index: 22323 !important;
+  z-index: 1 !important;
 }
 .section-title-services::before {
   content: "SERVICES";
@@ -192,12 +189,11 @@
   right: 0px;
   color: #ffffff26;
   letter-spacing: 12px;
-  z-index: -1;
+  z-index: 0;
 }
 .service-area {
   background-color: rgb(243, 243, 243);
   text-align: center;
-  position: relative;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s !important;
@@ -216,8 +212,7 @@
   background: linear-gradient(45deg, #000d8a, #000dff);
   color: white;
   border-radius: 100px;
-}
-/* 5. Team Section CSS  */
+} /* 5. Team Section CSS  */
 .section-title-team {
   position: relative;
   z-index: 2;
@@ -249,10 +244,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
-  padding-top: 70px !important;
-  padding-bottom: 60px !important;
   position: relative;
   background-attachment: fixed;
+  padding: 65px 0px !important;
 }
 .team-member-induvidual {
   position: relative;
@@ -264,8 +258,7 @@
   color: #0b1227 !important;
   padding: 7px;
   font-size: 21px;
-}
-/* 6. Projects Section CSS  */
+} /* 6. Projects Section CSS  */
 .section-title-projects {
   position: relative;
 }
@@ -327,8 +320,7 @@
   opacity: 1;
   visibility: visible;
   height: 75px !important;
-}
-/* 6. Testimonial Section CSS  */
+} /* 6. Testimonial Section CSS  */
 .section-title-testimonial {
   position: relative;
 }
@@ -377,15 +369,13 @@
   width: 100px;
   margin: auto;
   border-radius: 100000px;
-}
-/* Skills Section CSS  */
+} /* Skills Section CSS  */
 .skills-img {
   background: url(../img/geonix-skills.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-/* Brand Slider */
+} /* Brand Slider */
 .owl-dots {
   display: none;
 }
@@ -399,8 +389,7 @@
 .brand-slider img:hover {
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
-}
-/* FAQ Section CSS */
+} /* FAQ Section CSS */
 .section-title-faq {
   position: relative;
 }
