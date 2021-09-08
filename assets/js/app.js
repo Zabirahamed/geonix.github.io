@@ -39,3 +39,7 @@ new kursor({
 new kursor({
     removeDefaultCursor: true
 })
+// Preeloader
+function preeloader() {
+    $(".preeloader").addClass("disable-preeloader");
+}

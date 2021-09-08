@@ -1,4 +1,3 @@
-/* Mostly Used CSS */
 * {
   outline: none !important;
 }
@@ -8,24 +7,64 @@ body {
   overflow-x: hidden;
 }
 body {
-  font-family: "Montserrat", sans-serif !important;
+  font-family: Montserrat, sans-serif !important;
+}
+.preeloader {
+  position: fixed;
+  inset: 0px;
+  width: 100%;
+  transition: 1s;
+  overflow: hidden;
+  height: 100%;
+  background-color: rgb(11, 18, 39);
+  z-index: 2147483647 !important;
+}
+@keyframes preeloader {
+  0% {
+    box-shadow: 0px 0px 0px 0px #fff;
+  }
+  50% {
+    box-shadow: 0px 0px 30px 4px #fff;
+  }
+  100% {
+    box-shadow: 0px 0px 0px 0px #fff;
+  }
+}
+.preeloader-round {
+  position: absolute;
+  background-color: #fff;
+  border-radius: 100%;
+  top: 0%;
+  width: 175px;
+  bottom: 0%;
+  margin: auto;
+  height: 175px;
+  left: 0%;
+  text-align: center;
+  right: 0%;
+  animation-name: preeloader;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  padding-top: 35px;
+}
+.disable-preeloader {
+  height: 0px !important;
+}
+.preeloader h1 {
+  font-size: 95px;
 }
 ::-webkit-scrollbar {
   width: 8px;
-} 
-::-webkit-scrollbar-thumb {
-  background: linear-gradient(#000d8a, #000dff); 
 }
-::-moz-selection { /* Code for Firefox */
-  color: white !important;
-  background: #000d8a;
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(rgb(0, 13, 138), rgb(0, 13, 255));
 }
 ::selection {
+  background: rgb(0, 13, 138);
   color: white !important;
-  background: #000d8a;
 }
 .top-header {
-  background-color: #0b1227;
+  background-color: rgb(11, 18, 39);
 }
 .header-social-icon a {
   padding: 9px;
@@ -36,37 +75,32 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
 }
 .bg-primary-color {
-  background: -o-linear-gradient(45deg, #000d8a, #000dff);
-  background: linear-gradient(45deg, #000d8a, #000dff);
+  background: linear-gradient(45deg, rgb(0, 13, 138), rgb(0, 13, 255));
 }
 header nav {
   padding: 0px !important;
   margin: 0px !important;
 }
 header nav ul li a {
-  color: #0b1227 !important;
+  text-align: center;
+  color: rgb(11, 18, 39) !important;
   font-weight: 600 !important;
   padding: 15px !important;
-  text-align: center;
 }
 .menu-bar {
-  background-color: #020d75;
+  background-color: rgb(2, 13, 117);
   width: 0%;
   height: 3px;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  transition: all 0.5s ease 0s;
 }
 .hamburger-menu-bar {
   height: 2px;
-  background: #0b1227;
+  background: rgb(11, 18, 39);
   width: 29px;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  transition: all 0.5s ease 0s;
   position: relative;
   margin-top: 6px;
 }
@@ -82,8 +116,6 @@ header nav ul li a {
   opacity: 0;
 }
 .menu-bar-1-active {
-  -webkit-transform: rotate(50deg) translate(5px, 5px);
-  -ms-transform: rotate(50deg) translate(5px, 5px);
   transform: rotate(50deg) translate(5px, 5px);
 }
 .menu-bar-2-active {
@@ -92,8 +124,6 @@ header nav ul li a {
   opacity: 0;
 }
 .menu-bar-3-active {
-  -webkit-transform: rotate(-50deg) translate(5px, -7px);
-  -ms-transform: rotate(-50deg) translate(5px, -7px);
   transform: rotate(-50deg) translate(5px, -7px);
 }
 .fixed-header {
@@ -102,20 +132,16 @@ header nav ul li a {
   right: 0px;
   width: 100%;
   background: white;
-  padding-left: 70px !important;
   margin: auto;
-  padding-right: 70px !important;
   left: 0px;
-  z-index: 111 !important;
-  -webkit-box-shadow: -1px 20px 30px 20px #00000012;
-  box-shadow: -1px 20px 30px 20px #00000012;
-  -webkit-animation-name: headeranimation;
+  box-shadow: rgba(0, 0, 0, 0.07) -1px 20px 30px 20px;
   animation-name: headeranimation;
-  -webkit-animation-duration: 1s;
   animation-duration: 1s;
-  -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
-  border-bottom: 3px solid #020d75 !important;
+  padding-left: 70px !important;
+  padding-right: 70px !important;
+  z-index: 111 !important;
+  border-bottom: 3px solid rgb(2, 13, 117) !important;
 }
 @-webkit-keyframes headeranimation {
   0% {
@@ -134,31 +160,24 @@ header nav ul li a {
   }
 }
 .header-custom-btn a {
-  background: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(#000d8a),
-    color-stop(#000dff),
-    color-stop(#000d8a),
-    to(#000dff)
-  );
-  background: -o-linear-gradient(left, #000d8a, #000dff, #000d8a, #000dff);
-  background: linear-gradient(90deg, #000d8a, #000dff, #000d8a, #000dff);
-  color: #ffffff !important;
-  background-size: 330%;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  background: linear-gradient(
+      90deg,
+      rgb(0, 13, 138),
+      rgb(0, 13, 255),
+      rgb(0, 13, 138),
+      rgb(0, 13, 255)
+    )
+    0% 0% / 330%;
+  transition: all 0.5s ease 0s;
   border-radius: 5px;
-  padding: 15px 23px !important;
   margin-left: 10px;
+  color: rgb(255, 255, 255) !important;
+  padding: 15px 23px !important;
 }
 .header-custom-btn a:hover {
-  -webkit-box-shadow: -2px 20px 30px 0px #00000014;
-  box-shadow: -2px 20px 30px 0px #00000014;
-  background-position: right;
-  color: #fff !important;
+  box-shadow: rgba(0, 0, 0, 0.08) -2px 20px 30px 0px;
+  background-position: right center;
+  color: rgb(255, 255, 255) !important;
 }
 header nav ul li a:hover .menu-bar {
   width: 100%;
@@ -168,133 +187,101 @@ header nav ul li a:hover .menu-bar {
 }
 .custom-btn {
   background: transparent;
-  color: #ffffff !important;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  transition: all 0.5s ease 0s;
+  font-weight: 800;
+  border: 3px solid rgb(255, 255, 255);
+  color: rgb(255, 255, 255) !important;
   border-radius: 0px !important;
   padding: 15px 23px !important;
-  font-weight: 800;
-  border: 3px solid #fff;
 }
 .custom-btn:hover {
-  -webkit-box-shadow: -2px 20px 30px 0px #ffffff2b;
-  box-shadow: -2px 20px 30px 0px #ffffff2b;
-  background: #ffffff;
-  color: #0b1227 !important;
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
+  box-shadow: rgba(255, 255, 255, 0.17) -2px 20px 30px 0px;
+  background: rgb(255, 255, 255);
   transform: scale(1.1);
-  border: 3px solid #ffffff;
+  border: 3px solid rgb(255, 255, 255);
+  color: rgb(11, 18, 39) !important;
 }
 .primary-color {
-  background: -o-linear-gradient(45deg, #000d8a, #000dff);
-  background: linear-gradient(45deg, #000d8a, #000dff);
-  background-clip: text;
+  background: linear-gradient(45deg, rgb(0, 13, 138), rgb(0, 13, 255));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .secondary-color {
-  color: #0b1227 !important;
+  color: rgb(11, 18, 39) !important;
 }
 .custom-btn-2 {
-  color: #0b1227 !important;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  transition: all 0.5s ease 0s;
+  font-weight: 800;
+  border: 3px solid rgb(2, 13, 117);
+  color: rgb(11, 18, 39) !important;
   border-radius: 0px !important;
   padding: 15px 23px !important;
-  font-weight: 800;
-  border: 3px solid #020d75;
 }
 .custom-btn-2:hover {
-  border: 3px solid #020d75;
-  background: -o-linear-gradient(45deg, #000d8a, #000dff);
-  background: linear-gradient(45deg, #000d8a, #000dff);
-  -webkit-box-shadow: -2px 20px 30px 0px #00000038;
-  box-shadow: -2px 20px 30px 0px #00000038;
+  border: 3px solid rgb(2, 13, 117);
+  background: linear-gradient(45deg, rgb(0, 13, 138), rgb(0, 13, 255));
+  box-shadow: rgba(0, 0, 0, 0.22) -2px 20px 30px 0px;
   color: white !important;
 }
 .text-dark {
-  color: #0b1227 !important;
+  color: rgb(11, 18, 39) !important;
 }
 .white-title-bar {
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   width: 50px;
   height: 5px;
   margin: auto;
 }
 .title-bar {
-  background: -o-linear-gradient(45deg, #000d8a, #000dff);
-  background: linear-gradient(45deg, #000d8a, #000dff);
+  background: linear-gradient(45deg, rgb(0, 13, 138), rgb(0, 13, 255));
   width: 50px;
   height: 5px;
   margin: auto;
 }
 .text-light {
-  color: #ddd !important;
+  color: rgb(221, 221, 221) !important;
 }
 .custom-btn-3 {
-  color: #ffffff !important;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  transition: all 0.5s ease 0s;
+  font-weight: 800;
+  border: 3px solid rgb(255, 255, 255);
+  color: rgb(255, 255, 255) !important;
   border-radius: 0px !important;
   padding: 15px 23px !important;
-  font-weight: 800;
-  border: 3px solid #ffffff;
 }
 .custom-btn-3:hover {
-  background: #fff;
-  color: #000 !important;
-  -webkit-box-shadow: 0px 9px 30px 7px #ffffff40;
-  box-shadow: 0px 9px 30px 7px #ffffff40;
+  background: rgb(255, 255, 255);
+  box-shadow: rgba(255, 255, 255, 0.25) 0px 9px 30px 7px;
+  color: rgb(0, 0, 0) !important;
 }
 .custom-btn-4 {
-  background-color: #020e75;
+  background-color: rgb(2, 14, 117);
+  border: 3px solid rgb(2, 13, 117);
+  transition: all 0.5s ease 0s;
+  font-weight: bolder;
   color: white !important;
-  border: 3px solid #020d75;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
   border-radius: 0px !important;
   padding: 15px 23px !important;
-  font-weight: bolder;
 }
 .custom-btn-4:hover {
-  background-color: #0b1227;
-  border: 3px solid #0b1227;
-  -webkit-box-shadow: -2px 20px 30px 0px #00000038;
-  box-shadow: -2px 20px 30px 0px #00000038;
+  background-color: rgb(11, 18, 39);
+  border: 3px solid rgb(11, 18, 39);
+  box-shadow: rgba(0, 0, 0, 0.22) -2px 20px 30px 0px;
 }
 .left-bar {
   margin: unset;
 }
 .main-footer {
-  background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(#000d91eb),
-      to(#000df7ed)
-    ),
-    url(../img/geonix-footer-bg.png);
-  background: -o-linear-gradient(#000d91eb, #000df7ed),
-    url(../img/geonix-footer-bg.png);
-  background: linear-gradient(#000d91eb, #000df7ed),
-    url(../img/geonix-footer-bg.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background: linear-gradient(rgba(0, 13, 145, 0.92), rgba(0, 13, 247, 0.93))
+      center center / cover no-repeat,
+    url("../img/geonix-footer-bg.png");
 }
 .footer-link a {
-  color: white !important;
   text-decoration: none;
+  color: white !important;
 }
 .footer-link span {
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  transition: all 0.5s ease 0s;
 }
 .footer-link:hover span {
   padding-left: 10px;
@@ -307,58 +294,51 @@ header nav ul li a:hover .menu-bar {
   padding-left: 0px !important;
 }
 .btn-top {
-  color: #fff;
-  background: -o-linear-gradient(45deg, #000d8a, #000dff);
-  background: linear-gradient(45deg, #000d8a, #000dff);
+  color: rgb(255, 255, 255);
+  background: linear-gradient(45deg, rgb(0, 13, 138), rgb(0, 13, 255));
   border-radius: 100000px;
   position: fixed;
   right: 20px;
   bottom: -110px;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  transition: all 0.5s ease 0s;
   padding: 10px 18px;
   font-size: 27px;
-  z-index: 1000000000000000000000000000000 !important;
+  z-index: 214748347 !important;
 }
 .btn-top:hover {
-  background-color: #fff;
-  color: #0b1227;
+  background-color: rgb(255, 255, 255);
+  color: rgb(11, 18, 39);
 }
 .active-top-btn {
-  -webkit-animation-name: topbtnanimation;
   animation-name: topbtnanimation;
-  -webkit-animation-duration: 1s;
   animation-duration: 1s;
-  -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
   bottom: 20px;
   right: 20px;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  transition: all 0.5s ease 0s;
 }
 .btn-top:hover {
-  color: #fff !important;
-  -webkit-box-shadow: 0px 0px 30px #00000078;
-  box-shadow: 0px 0px 30px #00000078;
+  box-shadow: rgba(0, 0, 0, 0.47) 0px 0px 30px;
+  color: rgb(255, 255, 255) !important;
 }
-/* Subscription Section */
 .subscription-seciton {
-  background-color: #0b1227;
+  background-color: rgb(11, 18, 39);
 }
 .sub-from {
-  border: 2px solid #fff;
-  color: #fff !important;
+  border: 2px solid rgb(255, 255, 255);
+  color: rgb(255, 255, 255) !important;
   padding: 9px 18px !important;
 }
 .form-icon {
-  border: 2px solid #fff;
+  border-top: 2px solid rgb(255, 255, 255);
+  border-bottom: 2px solid rgb(255, 255, 255);
+  border-left: 2px solid rgb(255, 255, 255);
+  border-image: initial;
   border-right: none;
 }
 .subscribe-btn {
   padding: 9px 18px !important;
-  border: 2px solid #fff !important;
+  border: 2px solid rgb(255, 255, 255) !important;
 }
 @-webkit-keyframes topbtnanimation {
   0% {
@@ -377,7 +357,7 @@ header nav ul li a:hover .menu-bar {
   }
 }
 .bottom-footer {
-  background: #0b1227;
+  background: rgb(11, 18, 39);
 }
 .footer-logo {
   width: 195px;
