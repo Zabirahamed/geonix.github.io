@@ -1,0 +1,43 @@
+/* Page Title CSS */
+.page-title {
+  background-color: rgb(11, 18, 39);
+}
+/* Contact Form Design */
+.form-field {
+  border: 3px solid #ddd;
+  transition: 0.5s;
+  border-radius: 0px !important;
+}
+.form-field:hover {
+  border: 3px solid #000ddf;
+  transition: 0.5s;
+}
+.contact-details {
+  background-color: rgb(11, 18, 39);
+  clip-path: polygon(1% 13%, 100% 0, 100% 75%, 0 100%);
+}
+.contact-phone {
+  color: white;
+  background: #e81e2c;
+  border-radius: 10000px;
+  font-size: 35px;
+  padding: 18px;
+}
+.follow-us {
+  color: white;
+  background: #319aff;
+  border-radius: 10000px;
+  font-size: 35px;
+  padding: 18px 22px;
+}
+.contact-location {
+  color: white;
+  background: #ffa900;
+  border-radius: 10000px;
+  font-size: 35px;
+  padding: 18px 22px;
+}
+.social-icon a {
+  padding: 5px;
+  font-size: 24px;
+}
