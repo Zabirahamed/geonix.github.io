@@ -53,14 +53,6 @@
   letter-spacing: 10px;
 } /* 3. Know More Section */
 .know-more-section {
-  background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(#000d91ad),
-      to(#000df7ab)
-    ),
-    url(../img/geonix-background-2.jpg);
   background: -o-linear-gradient(#000d91ad, #000df7ab),
     url(../img/geonix-background-2.jpg);
   background: linear-gradient(#000d91ad, #000df7ab),
@@ -101,7 +93,8 @@
 }
 .info-section:hover .info-icon {
   color: #0b1227 !important;
-} /* 4. Services Section CSS  */
+} 
+/* 4. Services Section CSS  */
 .service-section {
   background: #0b1227;
 }
@@ -142,7 +135,8 @@
   background: linear-gradient(45deg, #000d8a, #000dff);
   color: white;
   border-radius: 100px;
-} /* 5. Team Section CSS  */
+} 
+/* 5. Team Section CSS  */
 .section-title-team {
   position: relative;
   z-index: 2;
@@ -160,14 +154,6 @@
   letter-spacing: 16px;
 }
 .team-workers {
-  background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(#000d91ad),
-      to(#000df7ab)
-    ),
-    url(../img/geonix-team.jpg);
   background: -o-linear-gradient(#000d91ad, #000df7ab),
     url(../img/geonix-team.jpg);
   background: linear-gradient(#000d91ad, #000df7ab), url(../img/geonix-team.jpg);
@@ -188,7 +174,8 @@
   color: #0b1227 !important;
   padding: 7px;
   font-size: 21px;
-} /* 6. Projects Section CSS  */
+} 
+/* 6. Projects Section CSS  */
 .section-title-projects {
   position: relative;
 }
@@ -250,7 +237,8 @@
   opacity: 1;
   visibility: visible;
   height: 75px !important;
-} /* 6. Testimonial Section CSS  */
+} 
+/* 7. Testimonial Section CSS  */
 .section-title-testimonial {
   position: relative;
 }
@@ -299,13 +287,14 @@
   width: 100px;
   margin: auto;
   border-radius: 100000px;
-} /* Skills Section CSS  */
+} 
+/* 8. Skills Section CSS  */
 .skills-img {
   background: url(../img/geonix-skills.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-} /* Brand Slider */
+} /* 9. Brand Slider */
 .owl-dots {
   display: none;
 }
@@ -319,19 +308,4 @@
 .brand-slider img:hover {
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
-} /* FAQ Section CSS */
-.section-title-faq {
-  position: relative;
-}
-.section-title-faq::before {
-  content: "OUR FAQ";
-  position: absolute;
-  font-size: 69px;
-  top: -15px;
-  z-index: -2;
-  text-align: center;
-  left: 0px;
-  right: 0px;
-  color: #e4e4e4d1;
-  letter-spacing: 10px;
 }
