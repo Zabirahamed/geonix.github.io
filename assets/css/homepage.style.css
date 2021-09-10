@@ -1,6 +1,5 @@
 /* 1. Homepage Hero Section */
 .hero-section {
-  background: -webkit-gradient(linear, left top, left bottom, from(#000d91ad), to(#000df7ab)), url(../img/geonix-background.jpg); background: -o-linear-gradient(#000d91ad, #000df7ab), url(../img/geonix-background.jpg); 
   background: linear-gradient(#000d91ad, #000df7ab), url(../img/geonix-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -19,37 +18,13 @@
   position: relative;
   top: 0px;
 }
-.active-hero-title-animation {
-  -webkit-animation-name: hero-section-all-element;
-  animation-name: hero-section-all-element;
-  -webkit-animation-duration: 1.5s;
-  animation-duration: 1.5s;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
-}
 .hero-sub-title {
   position: relative;
   top: 0px;
 }
-.active-hero-sub-title {
-  -webkit-animation-name: hero-section-all-element;
-  animation-name: hero-section-all-element;
-  -webkit-animation-duration: 1.5s;
-  animation-duration: 1.5s;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
-}
 .hero-btn {
   position: relative;
   top: 0px;
-}
-.active-hero-btn {
-  -webkit-animation-name: hero-section-all-element;
-  animation-name: hero-section-all-element;
-  -webkit-animation-duration: 1.5s;
-  animation-duration: 1.5s;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
 }
 /* 2. About Section */
 .about-title::after {
