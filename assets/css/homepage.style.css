@@ -1,4 +1,4 @@
-/* 1. Homepage Hero Section */
+/* HERO SECTION */
 .hero-section {
   background: linear-gradient(#000d91ad, #000df7ab), url(../img/geonix-background.jpg);
   background-repeat: no-repeat;
@@ -26,7 +26,7 @@
   position: relative;
   top: 0px;
 }
-/* 2. About Section */
+/* ABOUT US */
 .about-title::after {
   content: "";
   background: #020e75;
@@ -51,7 +51,57 @@
   right: 0px;
   color: #e4e4e4d1;
   letter-spacing: 10px;
-} /* 3. Know More Section */
+}
+/* OUR SERVICES  */
+.service-section {
+  background: #0b1227;
+}
+.section-title-services {
+  position: relative;
+  z-index: 1 !important;
+}
+.section-title-services::before {
+  content: "SERVICES";
+  position: absolute;
+  font-size: 69px;
+  top: -15px;
+  text-align: center;
+  left: 0px;
+  right: 0px;
+  color: #ffffff26;
+  letter-spacing: 12px;
+  z-index: 0;
+}
+.service-area {
+  background-color: rgb(243, 243, 243);
+  text-align: center;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s !important;
+}
+.service-area:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-box-shadow: 0px 0px 30px 10px #ffffff29;
+  box-shadow: 0px 0px 30px 10px #ffffff29;
+}
+.service-icon i {
+  padding: 24px 19px;
+  font-size: 34px;
+  background: -o-linear-gradient(45deg, #000d8a, #000dff);
+  background: linear-gradient(45deg, #000d8a, #000dff);
+  color: white;
+  border-radius: 100px;
+}
+/* KNOW ABOUT OUR SKILLS  */
+.skills-img {
+  background: url(../img/geonix-skills.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+} 
+/* WHY WE ARE BEST */
 .know-more-section {
   background: -o-linear-gradient(#000d91ad, #000df7ab),
     url(../img/geonix-background-2.jpg);
@@ -94,88 +144,7 @@
 .info-section:hover .info-icon {
   color: #0b1227 !important;
 } 
-/* 4. Services Section CSS  */
-.service-section {
-  background: #0b1227;
-}
-.section-title-services {
-  position: relative;
-  z-index: 1 !important;
-}
-.section-title-services::before {
-  content: "SERVICES";
-  position: absolute;
-  font-size: 69px;
-  top: -15px;
-  text-align: center;
-  left: 0px;
-  right: 0px;
-  color: #ffffff26;
-  letter-spacing: 12px;
-  z-index: 0;
-}
-.service-area {
-  background-color: rgb(243, 243, 243);
-  text-align: center;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s !important;
-}
-.service-area:hover {
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-  -webkit-box-shadow: 0px 0px 30px 10px #ffffff29;
-  box-shadow: 0px 0px 30px 10px #ffffff29;
-}
-.service-icon i {
-  padding: 24px 19px;
-  font-size: 34px;
-  background: -o-linear-gradient(45deg, #000d8a, #000dff);
-  background: linear-gradient(45deg, #000d8a, #000dff);
-  color: white;
-  border-radius: 100px;
-} 
-/* 5. Team Section CSS  */
-.section-title-team {
-  position: relative;
-  z-index: 2;
-}
-.section-title-team::before {
-  content: "TEAM";
-  position: absolute;
-  font-size: 69px;
-  top: -15px;
-  z-index: -2;
-  text-align: center;
-  left: 0px;
-  right: 0px;
-  color: #ffffff3b;
-  letter-spacing: 16px;
-}
-.team-workers {
-  background: -o-linear-gradient(#000d91ad, #000df7ab),
-    url(../img/geonix-team.jpg);
-  background: linear-gradient(#000d91ad, #000df7ab), url(../img/geonix-team.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top center;
-  position: relative;
-  background-attachment: fixed;
-  padding: 65px 0px !important;
-}
-.team-member-induvidual {
-  position: relative;
-}
-.team-social-icon {
-  margin: 5px 0px;
-}
-.team-social-icon a {
-  color: #0b1227 !important;
-  padding: 7px;
-  font-size: 21px;
-} 
-/* 6. Projects Section CSS  */
+/* OUR PROJECTS  */
 .section-title-projects {
   position: relative;
 }
@@ -237,8 +206,47 @@
   opacity: 1;
   visibility: visible;
   height: 75px !important;
+}
+/* OUR TEAM  */
+.section-title-team {
+  position: relative;
+  z-index: 2;
+}
+.section-title-team::before {
+  content: "TEAM";
+  position: absolute;
+  font-size: 69px;
+  top: -15px;
+  z-index: -2;
+  text-align: center;
+  left: 0px;
+  right: 0px;
+  color: #ffffff3b;
+  letter-spacing: 16px;
+}
+.team-workers {
+  background: -o-linear-gradient(#000d91ad, #000df7ab),
+    url(../img/geonix-team.jpg);
+  background: linear-gradient(#000d91ad, #000df7ab), url(../img/geonix-team.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  position: relative;
+  background-attachment: fixed;
+  padding: 65px 0px !important;
+}
+.team-member-induvidual {
+  position: relative;
+}
+.team-social-icon {
+  margin: 5px 0px;
+}
+.team-social-icon a {
+  color: #0b1227 !important;
+  padding: 7px;
+  font-size: 21px;
 } 
-/* 7. Testimonial Section CSS  */
+/* TESTIMONIAL  */
 .section-title-testimonial {
   position: relative;
 }
@@ -288,13 +296,7 @@
   margin: auto;
   border-radius: 100000px;
 } 
-/* 8. Skills Section CSS  */
-.skills-img {
-  background: url(../img/geonix-skills.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-} /* 9. Brand Slider */
+/* BRAND SLIDER */
 .owl-dots {
   display: none;
 }
@@ -308,4 +310,4 @@
 .brand-slider img:hover {
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
-}
+} 
