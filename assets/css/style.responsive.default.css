@@ -117,3 +117,20 @@
     font-size: 15px;
   }
 }
+@media screen and (min-width: 100px) and (max-width: 1048px) {
+  .menu-bar {
+    display: none !important;
+  }
+  header nav ul li a {
+    text-align: left !important;
+  }
+  .header-custom-btn a {
+    background: transparent !important;
+    margin-left: 0px !important;
+    color: rgb(11, 18, 39) !important;
+    padding: 15px !important;
+  }
+  .navbar-nav {
+    margin-top: 10px !important;
+  }
+}
