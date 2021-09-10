@@ -1,3 +1,11 @@
+//   HTML Template Name : GeoNix - Digital Business Agency Bootstrap and Html Template
+//   Author : Template Coder
+//   Support : templatecoder755@gmail.com
+//   Author Phone / What's App : +88-01629078287
+//   Description : Digital Business Agency Bootstrap and Html Template
+//   Version : 1.0 
+
+
 // Owl Carousel Start
 var owl = $('.owl-carousel');
 owl.owlCarousel({

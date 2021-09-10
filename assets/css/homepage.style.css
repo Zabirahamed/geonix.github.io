@@ -21,7 +21,7 @@
   9. BRAND SLIDER
 */
 
-/* HERO SECTION */
+/* ============== HERO SECTION ============== */
 .hero-section {
   background: linear-gradient(#000d91ad, #000df7ab), url(../img/geonix-background.jpg);
   background-repeat: no-repeat;
@@ -49,7 +49,7 @@
   position: relative;
   top: 0px;
 }
-/* ABOUT US */
+/* ============== ABOUT US ============== */
 .about-title::after {
   content: "";
   background: #020e75;
@@ -75,7 +75,7 @@
   color: #e4e4e4d1;
   letter-spacing: 10px;
 }
-/* OUR SERVICES  */
+/* ============== OUR SERVICES ============== */
 .service-section {
   background: #0b1227;
 }
@@ -117,14 +117,14 @@
   color: white;
   border-radius: 100px;
 }
-/* KNOW ABOUT OUR SKILLS  */
+/* ============== KNOW ABOUT OUR SKILLS ==============  */
 .skills-img {
   background: url(../img/geonix-skills.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 } 
-/* WHY WE ARE BEST */
+/* ============== WHY WE ARE BEST ============== */
 .know-more-section {
   background: -o-linear-gradient(#000d91ad, #000df7ab),
     url(../img/geonix-background-2.jpg);
@@ -167,7 +167,7 @@
 .info-section:hover .info-icon {
   color: #0b1227 !important;
 } 
-/* OUR PROJECTS  */
+/* ============== OUR PROJECTS ============== */
 .section-title-projects {
   position: relative;
 }
@@ -230,7 +230,7 @@
   visibility: visible;
   height: 75px !important;
 }
-/* OUR TEAM  */
+/* ============== OUR TEAM ============== */
 .section-title-team {
   position: relative;
   z-index: 2;
@@ -269,7 +269,7 @@
   padding: 7px;
   font-size: 21px;
 } 
-/* TESTIMONIAL  */
+/* ============== TESTIMONIAL ============== */
 .section-title-testimonial {
   position: relative;
 }
@@ -319,7 +319,7 @@
   margin: auto;
   border-radius: 100000px;
 } 
-/* BRAND SLIDER */
+/* ============== BRAND SLIDER ============== */
 .owl-dots {
   display: none;
 }

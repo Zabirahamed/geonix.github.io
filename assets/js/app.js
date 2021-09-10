@@ -1,3 +1,10 @@
+//   HTML Template Name : GeoNix - Digital Business Agency Bootstrap and Html Template
+//   Author : Template Coder
+//   Support : templatecoder755@gmail.com
+//   Author Phone / What's App : +88-01629078287
+//   Description : Digital Business Agency Bootstrap and Html Template
+//   Version : 1.0 
+
 // Header Scroll Down Fixed Jquery Code
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();
