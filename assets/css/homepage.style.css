@@ -96,7 +96,7 @@
   z-index: 0;
 }
 .service-area {
-  background-color: rgb(243, 243, 243);
+  background-color: #fff;
   text-align: center;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;

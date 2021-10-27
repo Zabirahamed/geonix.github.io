@@ -57,3 +57,15 @@
   padding: 5px;
   font-size: 24px;
 }
+.section-title-touch::before {
+  content: "GET IN TOUCH";
+  position: absolute;
+  font-size: 69px;
+  top: -15px;
+  z-index: -2;
+  text-align: center;
+  left: 0px;
+  right: 0px;
+  color: #e4e4e4d1;
+  letter-spacing: 10px;
+}
