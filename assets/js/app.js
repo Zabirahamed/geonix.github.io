@@ -39,13 +39,7 @@ $(window).scroll(function() {
         $(".btn-top").removeClass("active-top-btn");
     }
 });
-// Kursor.Js
-new kursor({
-    type: 1
-})
-new kursor({
-    removeDefaultCursor: true
-})
+
 // Preeloader
 function preeloader() {
     $(".preeloader").addClass("disable-preeloader");

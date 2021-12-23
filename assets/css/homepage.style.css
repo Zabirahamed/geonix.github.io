@@ -108,6 +108,7 @@
   transform: scale(1.1);
   -webkit-box-shadow: 0px 0px 30px 10px #ffffff29;
   box-shadow: 0px 0px 30px 10px #ffffff29;
+  transform: scale(1.1) !important;
 }
 .service-icon i {
   padding: 24px 19px;

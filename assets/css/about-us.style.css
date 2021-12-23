@@ -1,0 +1,75 @@
+/* 
+  HTML Template Name : GeoNix - Digital Business Agency Bootstrap and Html Template
+  Author : Template Coder
+  Support : templatecoder755@gmail.com
+  Author Phone / What's App : +88-01629078287
+  Description : Digital Business Agency Bootstrap and Html Template
+  Version : 1.0
+*/
+
+/* 
+  CSS INDEX
+  ==================================================
+  1. 
+  2. 
+*/
+
+/* ============== Page Title CSS ============== */
+.page-title {
+    background-color: rgb(11, 18, 39);
+  }
+/* ============== Skills Section ============== */
+.lightbox {
+    position: relative;
+}
+.light-box-content {
+    position: absolute;
+    background: linear-gradient(90deg,rgb(0 13 138 / 80%),rgb(0 13 255 / 80%));
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    text-align: center;
+    padding-top: 50%;
+}
+.video-play {
+    font-size: 50px;
+    color: #fff;
+    background: #fff;
+    border-radius: 10000000px;
+    padding: 35px 45px;
+    /* transition: 0.5s; */
+    animation-name: animateboxshadow;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes animateboxshadow {
+    0%  {
+        box-shadow: 0px 0px 10px rgb(207, 207, 207);
+    }
+    50%  {
+        box-shadow: 0px 0px 0px rgb(255, 255, 255);
+    }
+    51%  {
+        box-shadow: 0px 0px 10px rgb(207, 207, 207);
+    }
+    100% {
+        box-shadow: 0px 0px 30px #fff;
+    }
+}
+.video-play i {
+    color: #000d8c;
+}
+/* ============== Faq Section ============== */
+.faq-question {
+    background: linear-gradient(90deg,rgb(0, 13, 138),rgb(0, 13, 255),rgb(0, 13, 138),rgb(0, 13, 255)) 0% 0% / 330%;
+    padding: 15px 15px;
+    color: #fff !important;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.faq-answer {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    margin-top: 5px;
+}
