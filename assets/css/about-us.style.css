@@ -38,7 +38,6 @@
     background: #fff;
     border-radius: 10000000px;
     padding: 35px 45px;
-    /* transition: 0.5s; */
     animation-name: animateboxshadow;
     animation-duration: 5s;
     animation-iteration-count: infinite;
