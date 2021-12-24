@@ -1,0 +1,23 @@
+@media screen and (min-width: 643px) and (max-width: 729px) {
+    .section-title-touch::before {
+        font-size: 55px;
+        top: -5px;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 642px) {
+    .section-title-touch::before {
+        font-size: 55px;
+        top: -2px;
+    }
+}
+@media screen and (min-width: 587px) and (max-width: 599px) {
+    .section-title-touch::before {
+        font-size: 45px;
+        top: -2px;
+    }
+}
+@media screen and (min-width: 100px) and (max-width: 586px) {
+    .section-title-touch::before {
+        display: none;
+    }
+}

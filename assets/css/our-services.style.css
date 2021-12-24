@@ -1,0 +1,105 @@
+/* 
+  HTML Template Name : GeoNix - Digital Business Agency Bootstrap and Html Template
+  Author : Template Coder
+  Support : templatecoder755@gmail.com
+  Author Phone / What's App : +88-01629078287
+  Description : Digital Business Agency Bootstrap and Html Template
+  Version : 1.0
+*/
+
+/* 
+  CSS INDEX
+  ==================================================
+  1. Page Title CSS
+  2. 
+*/
+
+/* ============== Page Title CSS ============== */
+.page-title {
+    background-color: rgb(11, 18, 39);
+}
+/* ============== Service Section CSS ============== */
+.section-title-services::before {
+    content: "SERVICES";
+    position: absolute;
+    font-size: 69px;
+    top: -15px;
+    z-index: -2;
+    text-align: center;
+    left: 0px;
+    right: 0px;
+    color: #e4e4e4d1;
+    letter-spacing: 12px;
+}
+.service-area {
+    border: 2px solid #00098a;
+    padding-top: 40px !important;
+    transition: 0.5s !important;
+}
+.service-area .service-icon i {
+    padding: 24px 19px;
+    font-size: 34px;
+    background: -o-linear-gradient(45deg, #000d8a, #000dff);
+    background: linear-gradient(45deg, #000d8a, #000dff);
+    color: white;
+    transition: 0.5s;
+    border-radius: 100px;
+}
+.service-area:hover { 
+    background: linear-gradient(45deg, #000d8a, #000dff);
+    box-shadow: 0px 0px 30px 0px #000dff3b;
+    transform: translate(0px, -10px) !important;
+}
+.service-area:hover .service-info {
+    color: #fff !important;
+}
+.service-area:hover .text-muted {
+    color: #ddd !important;
+}
+.service-area:hover .service-icon i {
+    background: #fff !important;
+    color: #000dff;
+}
+/* ============== WHY WE ARE BEST ============== */
+.know-more-section {
+    background: -o-linear-gradient(#000d91ad, #000df7ab),
+      url(../img/geonix-background-2.jpg);
+    background: linear-gradient(#000d91ad, #000df7ab),
+      url(../img/geonix-background-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+  }
+  .info-section {
+    border: 2px solid #fff;
+    border-radius: 3px;
+    padding-top: 20px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    padding-bottom: 20px;
+  }
+  .info-area {
+    padding-top: 15px;
+  }
+  .info-section:hover {
+    background: #fff;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-box-shadow: 0px 0px 30px 6px #ffffff47;
+    box-shadow: 0px 0px 30px 6px #ffffff47;
+  }
+  .info-section:hover .info-text {
+    color: #0b1227 !important;
+  }
+  .info-icon,
+  .info-text {
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .info-section:hover .info-icon {
+    color: #0b1227 !important;
+  } 
